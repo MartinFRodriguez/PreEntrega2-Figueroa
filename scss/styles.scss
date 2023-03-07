@@ -1,0 +1,99 @@
+@import "fonts";
+@import "background";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+header{
+    nav{
+        background-color: $background-color;
+        div{
+            button{
+                background-color: white !important;
+            }
+            div{
+                ul{
+                    list-style-type: none;
+                    li{
+                        a.nav-link{
+                            font-size: xx-large;
+                            font-weight: bolder;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+            }
+        }
+    }
+
+main{
+    div{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        div{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            padding: 1%;
+            margin: 3px;
+            border: 1px black solid;
+            p{
+                font-family: $font-main;
+                font-weight: bolder;
+                font-size: x-large;
+            }
+            div{
+                display: flex;
+                flex-direction: row;
+                font-family: $font-main;
+                border: none;
+                p{
+                    margin-right: 35px;
+                    margin-top: 20px;
+                    font-size: x-large;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: 1%;
+    background-color: $background-color;
+    div{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        a{
+            margin: 30px;
+        }
+        ul{
+            display: flex;
+            flex-flow: column;
+            font-family: $font-main;
+            font-weight: 600;
+            font-size: x-large;
+            list-style-type: none;
+            padding-left: 0%;
+            a{
+                font-family: $font-main;
+                text-decoration: none;
+                color: $font-color-footer;
+                white-space: nowrap;
+            }
+        }
+    }
+    iframe{
+        padding: 5px;
+    }
+}

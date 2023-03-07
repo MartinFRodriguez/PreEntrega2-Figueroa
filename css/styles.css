@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yantramanav:wght@300&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header nav {
+  background-color: #d7e3fc;
+}
+header nav div button {
+  background-color: white !important;
+}
+header nav div div ul {
+  list-style-type: none;
+}
+header nav div div ul li a.nav-link {
+  font-size: xx-large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+main div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+main div div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 1%;
+  margin: 3px;
+  border: 1px black solid;
+}
+main div div p {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+main div div div {
+  display: flex;
+  flex-direction: row;
+  font-family: "Yantramanav", sans-serif;
+  border: none;
+}
+main div div div p {
+  margin-right: 35px;
+  margin-top: 20px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 1%;
+  background-color: #d7e3fc;
+}
+footer div {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+footer div a {
+  margin: 30px;
+}
+footer div ul {
+  display: flex;
+  flex-flow: column;
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+  list-style-type: none;
+  padding-left: 0%;
+}
+footer div ul a {
+  font-family: "Yantramanav", sans-serif;
+  text-decoration: none;
+  color: rgba(32, 77, 180, 0.9450980392);
+  white-space: nowrap;
+}
+footer iframe {
+  padding: 5px;
+}/*# sourceMappingURL=styles.css.map */
